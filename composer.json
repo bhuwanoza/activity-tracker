@@ -1,0 +1,17 @@
+{
+    "name": "nrm/activity-tracker",
+    "description": "This package tracks the user's activity over the website either the user is authenticated or unauthenticated",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Nrm\\ActivityTracker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bhuwan Ojha",
+            "email": "bhuwanoza59@gmail.com"
+        }
+    ],
+    "require": {}
+}
