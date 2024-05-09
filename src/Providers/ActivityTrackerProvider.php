@@ -3,11 +3,13 @@
 namespace Nrm\ActivityTracker\Providers;
 use Illuminate\Support\ServiceProvider;
 use Nrm\ActivityTracker\Middleware\ActivityTracker;
+
 use Nrm\ActivityTracker\Traits\PublishMigrationTrait;
 
 class ActivityTrackerProvider extends ServiceProvider
 {
     use PublishMigrationTrait;
+
     /**
      * Bootstrap services.
      *
