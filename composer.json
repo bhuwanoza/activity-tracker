@@ -7,6 +7,14 @@
             "Nrm\\ActivityTracker\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nrm\\ActivityTracker\\Providers\\ActivityTrackerProvider"
+            ]
+        }
+    },
+
     "authors": [
         {
             "name": "Bhuwan Ojha",
